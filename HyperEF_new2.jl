@@ -1,5 +1,3 @@
-cd("/Users/aliaghdaei/Desktop/Hypergraph/HypergraphFlowClustering-master/Exp-Amazon/Partitioning/")
-
 # Iterative Non-sampling method summing up all the vector values (applying QR)
 # generating 5 vectors for each smoothing step
 

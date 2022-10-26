@@ -5,12 +5,13 @@ using LinearAlgebra
 
 include("HyperEF.jl")
 include("Functions.jl")
-
 include("HyperNodes.jl")
 
-filename = "ibm01.hgr"
 
+filename = "ibm01.hgr"
+cd("../dara/")
 ar = ReadInp(filename)
+cd("../src/")
 
 ## L: the number of coarsening levels, e.g. 1, 2, 3, 4, ...
 L = 1

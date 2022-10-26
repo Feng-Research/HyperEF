@@ -81,13 +81,9 @@ function HyperEF(ar, L, R)
 
         ##
         RT = R * maximum(Evec)
-        println("maximum(Evec) = ", maximum(Evec))
 
         ## Choosing a ratio of the hyperedges for contraction
-        # Nsample = round(Int, RedR * length(ar))
         Nsample = length(findall(x->x<=RT, Evec))
-        println("Nsample = ", Nsample)
-        #Nsample = round(Int, RedR * length(ar))
 
         PosP = sortperm(P[:,1])
 

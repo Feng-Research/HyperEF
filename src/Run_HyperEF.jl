@@ -5,11 +5,10 @@ using LinearAlgebra
 
 include("HyperEF.jl")
 include("Functions.jl")
-include("HyperNodes.jl")
 
 
 filename = "ibm01.hgr"
-cd("../dara/")
+cd("../data/")
 ar = ReadInp(filename)
 cd("../src/")
 

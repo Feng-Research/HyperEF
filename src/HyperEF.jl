@@ -185,5 +185,5 @@ function HyperEF(ar, L, R)
     end #end for loop
 
 
-    return ar, idx_mat
+    return ar
 end

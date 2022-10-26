@@ -18,7 +18,7 @@ L = 1
 ## R: Effective resistance threshold tor growing the clusters (0<R<=1)
 R = 1
 
-ar_new, idx_mat = HyperEF(ar, L, R)
+ar_new = HyperEF(ar, L, R)
 
 ## Generating the output (coarsened) hypergraph
 Whgr("Output.hgr", ar_new)

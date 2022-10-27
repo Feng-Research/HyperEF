@@ -8,3 +8,22 @@ HyperEF is a scalable algorithmic framework for spectral coarsening (decompositi
 
 <img width="872" alt="overview11_paper" src="https://user-images.githubusercontent.com/85693952/197917710-677b8b42-d06b-4763-8946-691cbdc26dd9.png">
 <img width="772" alt="Screen Shot 2022-10-25 at 10 09 51 PM" src="https://user-images.githubusercontent.com/85693952/197917946-fba005ab-39cc-4f60-83e9-9a3129540199.png">
+
+# Citation
+@misc{https://doi.org/10.48550/arxiv.2210.14813,
+  doi = {10.48550/ARXIV.2210.14813},
+  
+  url = {https://arxiv.org/abs/2210.14813},
+  
+  author = {Aghdaei, Ali and Feng, Zhuo},
+  
+  keywords = {Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {HyperEF: Spectral Hypergraph Coarsening by Effective-Resistance Clustering},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+}

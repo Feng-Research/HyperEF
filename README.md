@@ -30,5 +30,7 @@ HyperEF is a scalable algorithmic framework for spectral coarsening (decompositi
 
 # Dataset
 All datasets are in hMetis format:
+
+
 The first line contains either two integers. The first integer is the number of hyperedges, the second is the number of vertices.
 After this first line, the remaining lines store the vertices contained in each hyperedge–one line per hyperedge. In particular, the i th line (excluding comment lines) contains the vertices that are included in the (i − 1)th hyperedge.

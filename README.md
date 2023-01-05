@@ -34,3 +34,7 @@ All datasets are in hMetis format:
 
 The first line contains either two integers. The first integer is the number of hyperedges, the second is the number of vertices.
 After this first line, the remaining lines store the vertices contained in each hyperedge–one line per hyperedge. In particular, the i th line (excluding comment lines) contains the vertices that are included in the (i − 1)th hyperedge.
+
+# Output
+
+The output of HyperEF is a clustering file. The clustering file of a hypergraph with |V | vertices, consists of |V | lines with a single number per line. The i th line of the file contains the cluster number that the i th vertex belongs to. Cluster numbers start from 1. 

@@ -198,17 +198,16 @@ function HyperNodes(ar)
 
 end
 
-## Write the output matrix in hMETIS format
-function Whgr(input, ar)
-    mx = mxF(ar)
-    open(input,"w")do io
-        println(io, length(ar)," ", mx)
-        for i =1:length(ar)
-            nds = ar[i]
-            for j =1:length(nds)
-                print(io, nds[j], " ")
-            end
-            println(io)
+## The output file shows the cluster that every nodes belong to it
+function CLidx(idx_mat)
+    V = 1:maximum(idx_mat[end])
+    for ii = 1:length(idx_mat)
+        idx1 = idx_mat[end - ii + 1]
+        V = V[idx1]
+    end
+    open("Output","w")do io
+        for ii = 1:length(V)
+            println(io, V[ii])
         end
     end
 end

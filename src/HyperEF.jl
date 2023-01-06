@@ -179,7 +179,7 @@ function HyperEF(ar, L, R)
         W = W2
 
     end #end for loop
-
-
-    return ar
+    
+    ## writes the cluster node information
+    CLidx(idx_mat)
 end
